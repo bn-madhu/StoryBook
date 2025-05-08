@@ -1,0 +1,38 @@
+.btn {
+  border: 1px solid #2A2A6E;
+  outline: none;
+  border-radius: 3rem;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn.primary {
+  background: #5E5EDD;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background: #2A2A6E;
+  border-color: #4646be;
+}
+
+.btn.outline {
+  background: #F1F2F3;
+  color: #000;
+}
+
+.btn.outline:hover {
+  background: #c9c9c9;
+  border-color: #4646be;
+}
+
+.btn.sm {
+  transform: scale(0.8);
+}
+.btn.md {
+  transform: scale(1);
+}
+.btn.lg {
+  transform: scale(1.3);
+}
