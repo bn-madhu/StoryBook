@@ -1,1 +1,7 @@
 # StoryBook
+
+# dependencies
+/node_modules
+
+# production
+/build
